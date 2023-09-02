@@ -9,13 +9,13 @@ body {
   background-color: #161515;
   color: white;
   font-family: Georgia, "Times New Roman", Times, serif;
-  font-size: 30px;
+  font-size: 10px;
   margin: 0%;
   padding: 0%;
   width: 100%;
 }
 .bar1-items{
-  font-size: 25px;
+  font-size: 20px;
 }
 ul {
   list-style-type: none;
@@ -32,6 +32,7 @@ li a {
     text-align: center;
     padding: 14px 40px;
     text-decoration: none;
+    
   }
 
 .text1{ 
@@ -107,7 +108,7 @@ video{
   align-items: center;
   justify-content: center;
   margin-top: 50px;
-  margin-bottom: 30px;
+  margin-bottom: 90px;
   text-align: center;
 }
 .text6{
@@ -124,11 +125,67 @@ video{
   position: relative;
   margin-left: 20%;
   font-size: 20px;
-  top: 10px;
+  top: 50px;
+  margin-bottom: 40px;
+}
+#img2{
+  
+  height: 35vh;
+  width: 15%;
+  text-align: center;
+  align-items: center;
+}
+.section3{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  
 }
 
 
+.section4{
+  background-color: #4e4f51;
+  height: 75vh;
+  color: white;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.text8{
+  font-size: 90px;
+  width: 50%;
+
+}
+
+.text9{
+  width: 50%;
+  float: right;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.section5{
+  background-color: black;
+  height: 10vh;
 
 
 
+}
+.section5 a {
+  color: white;
+  text-decoration: none;
+  float: right;
+  margin-right: 35px;
+  font-size: 25px;
+  margin-top: 15px;
+  
 
+
+}
+ .section5 a:hover {
+  font-size: 30px;
+
+
+}
+ 
