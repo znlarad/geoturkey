@@ -1,0 +1,345 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bar1 {
+  height: 80px;
+  background-color: #161515;
+  color: white;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 10px;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
+
+.bar1-items{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.Left {
+  margin-left: 50px;
+ padding: 14px 16px;
+}
+.Left:hover {
+  opacity: 0.6;
+}
+.center {
+ margin-left: auto;
+ margin-right: auto;
+  text-align: center;
+  padding: 25px 16px;
+}
+.center:hover {
+  opacity: 0.6;
+}
+.Right {
+  
+  padding: 25px 16px;
+  float: right;
+  margin-right: 50px;
+}
+.Right .nav-btn {
+  border: solid white 2px;
+  text-decoration: none;
+  padding: 10px 20px;
+  color: whitesmoke;
+  border-radius: 20px;
+
+}
+.Right:hover {
+  border-radius: 10px;
+  opacity: 0.6;
+}
+.center a {
+  color: white;
+  text-decoration: none;
+  text-transform: none;
+}
+
+
+
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+
+
+
+
+.text1{ 
+
+    margin: 20%;
+    margin-left: 30px;
+    color: black;
+    font-size: 65px;
+    margin-top: 20px;
+    position: relative;
+    font-family: 'Big Shoulders Display', cursive;
+    font-family: 'Oswald', sans-serif;
+  
+}
+
+img{
+    height: 90vh;
+    width: 100%;
+    margin-top: 0%;
+}
+.bar2 {
+  opacity: 0;
+  height: 35vh;
+  background-color: black;
+  margin: 0%;
+  color: white;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.our{
+  color: #B7B7B7;
+  padding: 20px;
+}
+.mission{
+  margin: 60px;
+  margin-top: 0;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container{
+  opacity: 0;
+  display: flex;
+}
+#imgg{
+  width: 70%;
+  margin-left: 0%;
+  height: 50vh;
+  margin-top: 10%;
+}
+
+#texttt{
+  width: 50%;
+ font-size: 20px;
+ margin-top: 10%;
+ text-align: center;
+ margin-right: 0px;
+}
+
+video{
+  width: 100%;
+  margin-top: 80px;
+  padding: 0%;
+}
+
+.vi{
+  opacity: 0;
+  width: 100%;
+  overflow: hidden;
+  height: 80vh;
+}
+.date{
+  font-size: 40px;
+  margin-bottom: 0;
+}
+.section2{
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 90px;
+  text-align: center;
+}
+.text6{
+  opacity: 0;
+  width: 60%;
+  text-align: center;
+  position: relative;
+  margin-left: 20%;
+  font-size: 20px;
+}
+
+.text7{
+  opacity: 0;
+  width: 60%;
+  text-align: center;
+  position: relative;
+  margin-left: 20%;
+  font-size: 20px;
+  top: 50px;
+  margin-bottom: 40px;
+}
+#img2{
+  
+  height: 35vh;
+  width: 15%;
+  text-align: center;
+  align-items: center;
+}
+.section3{
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 100px;
+  
+}
+
+
+.section4{
+  background-color: #4e4f51;
+  height: 75vh;
+  color: white;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  opacity: 0;
+}
+.text8{
+  font-size: 90px;
+  width: 50%;
+
+}
+
+.text9{
+  width: 50%;
+  float: right;
+  margin-right: 30px;
+  margin-top: 40px;
+  font-size: 22px;
+}
+
+.section5{
+  background-color: black;
+  height: 10vh;
+
+
+
+}
+.section5 a {
+  color: white;
+  text-decoration: none;
+  float: right;
+  margin-right: 35px;
+  font-size: 25px;
+  margin-top: 15px;
+  
+
+
+}
+ .section5 a:hover {
+  font-size: 30px;
+
+
+}
+.fotojet1{
+  opacity: 0;
+}
+.fotojet2{
+  opacity: 0;
+}
+
+
+
+@-webkit-keyframes slide-right {
+  0% {
+    opacity: 0;
+
+  }
+  100% {
+    opacity: 1;
+   
+  }
+}
+@keyframes slide-right {
+  0% {
+    opacity: 0;
+    
+  }
+  100% {
+    opacity: 1;
+ 
+  }
+}
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+.text1.animate{
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+.bar2.animate{
+  -webkit-animation: slide-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+  animation: slide-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+}
+.container.animate{
+  -webkit-animation: slide-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+  animation: slide-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+}
+.vi.animate{
+  -webkit-animation: slide-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+  animation: slide-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+}
+.text6.animate{
+  -webkit-animation: slide-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+  animation: slide-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+}
+.text7.animate{
+  -webkit-animation: slide-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+  animation: slide-right 1.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+}
+.fotojet1.animate{
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+  animation: slide-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+}
+.fotojet2.animate{
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+  animation: slide-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+}
+.section4.animate{
+  -webkit-animation: slide-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+  animation: slide-right 0.5s cubic-bezier(0.390, 0.575, 0.565, 1.000)  both;
+}
+ 
